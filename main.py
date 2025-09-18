@@ -25,10 +25,10 @@ with open('config.json', 'r') as f:
 def getenv(var): 
     return os.environ.get(var) or DATA.get(var, None)
 
-bot_token = "7451406952:AAEYWpbFn_7TcOzDFhEH3HAB-KzfpNOqm0U"
-api_hash = "7969a500681669ab678bb24ba2361628"
-api_id = 24927795
-auth_users = [7078486618]
+bot_token = ""
+api_hash = ""
+api_id = 
+auth_users = []
 bot = Client("mybot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 ss = "BQA_rUO3DjMTu9HACOmxVoC9KyN135J_ntXaIHHKquGDN2xEUKTnntmfaREfYR2kIrD8slFNEs8q4dGC3WAx8A2GNRg0maSRira0VHY2DibmtyUCCFjdriaQXUUAhpZ_ew8YG4WK8xrAPG8Nwq_Rm_gFwKQAEBTSictNVuzhrrZWITs56oJB8QRfVB3Jb3BdgWEVgSHpuvvvXzNNjSHFeFYu0lLnYjHZJzFmWkY8Kqs9RoUEEXGVPHynvcLHusT33Fr4DPO_ob-aNio8WOghyb2BnX0Q8znwDSBQtPLNhbBtz6kBtXx_NyjKBQ7U0dajaXEd3REkj9MftKm4bQfnwLVGAAAAAaXpIloA"
@@ -38,7 +38,7 @@ if ss is not None:
 else: 
     acc = None
 
-channel_id = 7078486618
+channel_id = 
 
 @bot.on_message(filters.command("channel_id"))
 async def set_channel_id(client: Client, message: Message):
