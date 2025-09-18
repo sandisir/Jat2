@@ -1,0 +1,28 @@
+{
+    "name":"KUNAL SAVE RESTRICTED CONTENT BOT",
+    "description":"Download videos from various websites using this telegram bot",
+    "repository":"https://github.com/KunalxDalal/Kunal-New-Save-Restricted-",
+    "buildpacks":[
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "env": {
+        "ID":{
+            "description": "Get your telegram API ID from https://my.telegram.org",
+            "value":"24927795"
+        },
+        "HASH":{
+            "description":"Get your telegram API HASH from https://my.telegram.org",
+		    "value":"7969a500681669ab678bb24ba2361628"
+        },
+        "TOKEN":{
+            "description":"Get from BotFather",
+            "value":"7451406952:AAEYWpbFn_7TcOzDFhEH3HAB-KzfpNOqm0U"
+        },
+        "STRING":{
+            "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
+            "value":"BQA_rUO3DjMTu9HACOmxVoC9KyN135J_ntXaIHHKquGDN2xEUKTnntmfaREfYR2kIrD8slFNEs8q4dGC3WAx8A2GNRg0maSRira0VHY2DibmtyUCCFjdriaQXUUAhpZ_ew8YG4WK8xrAPG8Nwq_Rm_gFwKQAEBTSictNVuzhrrZWITs56oJB8QRfVB3Jb3BdgWEVgSHpuvvvXzNNjSHFeFYu0lLnYjHZJzFmWkY8Kqs9RoUEEXGVPHynvcLHusT33Fr4DPO_ob-aNio8WOghyb2BnX0Q8znwDSBQtPLNhbBtz6kBtXx_NyjKBQ7U0dajaXEd3REkj9MftKm4bQfnwLVGAAAAAaXpIloA"
+        }
+    }
+}
